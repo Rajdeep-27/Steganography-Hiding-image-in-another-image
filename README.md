@@ -1,6 +1,7 @@
 # Steganography-Hiding-image-in-another-image
 Python code to hide an image in another and also extract the hidden image from the merged image which wasgenerated
-
+# Environment
+Linux
 # Requirements
 1. Python3
 2. OpenCV
@@ -18,5 +19,8 @@ img3.png: specify the name which you want to give to the output
 $python3 steganography.py -e img3.png,img4.png
 img3.png: input image(merged output of two images)
 img4.png: specify the name which you want to give to the extracted output image(which was hidden while merging)
+
+# Note:
+for '.png' images only.
 
 
